@@ -13,11 +13,13 @@
 	.multi-level-nav ul {
 		display: flex;
 		flex-wrap: wrap;
-		justify-content: flex-start;
+		/*justify-content: flex-start;*/
+		justify-content: space-between;
 	}
 
 	.multi-level-nav li {
 		position: relative;
+		flex: 1 0  auto;
 	}
 
 	li.has-children > a {
@@ -31,11 +33,11 @@
 	}
 
 	.multi-level-nav ul ul li {
-        
+        flex: 1 1 auto;
 	}
 
 	.multi-level-nav ul .toggled-on {
-		display: block;
+		display: flex;
 	}
 
 	.dropdown-toggle {
