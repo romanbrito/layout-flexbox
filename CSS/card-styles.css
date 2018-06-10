@@ -39,3 +39,9 @@ body {
 .card-content p {
 	font-size: 95%;
 }
+
+/*flexbox stuff*/
+.cards {
+	display: flex;
+    justify-content: space-between;
+}
