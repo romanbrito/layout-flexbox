@@ -2,6 +2,8 @@
 
 .advanced-nav li a {
     display: flex;
+    /*fill available space horizontally*/
+    width: 100%;
     justify-content: flex-start;
 }
 
@@ -30,6 +32,9 @@
 
     .advanced-nav li {
         flex: 1 0 12em;
+        /*scale vertically to fill all available space*/
+        display: flex;
+
     }
 
 }
