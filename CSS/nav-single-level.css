@@ -2,5 +2,21 @@
 @media screen and (min-width: 30em){
     .single-nav ul {
         display: flex;
+        /*if not enough space start wraping them down*/
+        flex-wrap: wrap;
+        /*
+        flex-end: elements to the right,
+        flex-start: default elements to the left
+        space-around: same distance space within them (boxes) with space on right and left
+        space-between: no space on left and right
+        center: elements are centered
+        */
+        justify-content: space-between;
+    }
+
+    .single-nav li {
+        /*auto is filling out the space so center is not going to work now*/
+        flex: 1 0 auto;
+        text-align: center;
     }
 }
