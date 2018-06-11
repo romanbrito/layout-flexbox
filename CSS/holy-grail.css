@@ -51,6 +51,7 @@
     .outer-wrap {
         display: flex;
         flex-direction: column;
+        /*flex-direction: column-reverse;*/
     }
 
     .content {
@@ -59,6 +60,7 @@
 
     .main-area {
         flex: 1 1 auto;
+        /*order: 1;*/
     }
 
     .post-content {
@@ -68,5 +70,6 @@
 
     .sidebar {
         flex: 0 0 12em;
+        /*order: 0;*/
     }
 }
