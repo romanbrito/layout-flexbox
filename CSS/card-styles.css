@@ -50,6 +50,8 @@ body {
     }
 
     .card {
+        /*to fill entire anchor*/
+        display: flex;
         /*calc to take advantage of space, could use width for older browser*/
         flex: 0 1 calc(50% - 0.5em);
         /*width: calc(33% - 1em);*/
